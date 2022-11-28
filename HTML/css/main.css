@@ -1,0 +1,160 @@
+body, html{
+  height: 100%;
+  margin: 0px;
+}
+
+body{
+    background-image: url(#);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position:relative;
+    width: 100%;
+    height:100%;
+
+
+}
+
+
+nav li{
+    display: inline;
+    margin: 20px; 
+}
+
+nav ul{
+    background-color: rgb(211, 202, 188);
+    margin: 0;
+    list-style-type:none;
+    width:100%;
+    padding: 50px;
+}
+
+nav{
+    display: block;
+    color:rgb(129, 69, 89);
+}
+
+nav a{
+    color:rgb(129, 69, 89);
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:rgb(75, 75, 138);
+}
+
+.hero-image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(194, 138, 105, 0.384)),url(../images/tumblr_flower.webp); 
+    height:80%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+
+}
+
+.hero-text{
+    color:white;
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+div.side-gallery {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ccc;
+    width: 350px;
+  }
+  
+  div.side-gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.side-gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+#main{
+    width: 75%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:400px;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left:0px;
+
+}
+
+#side-articles h2{
+    display:inline;
+}
+
+
+.side-articles, .main-articles{
+    padding:20px;
+    margin-bottom:20px;
+    border: 0px; 
+}
+ 
+.side-articles{
+    background-color: darkgray;
+    text-align:center;
+
+}
+
+.main-articles{
+    background-color:rgb(224, 210, 170)
+    
+}
+
+form{
+    margin-top:20px;
+
+}
+
+textarea, input{
+    background-color:lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles, h1{
+    margin-bottom: 0px;
+}
+
+footer{
+    width:100%;
+    background-color:black;
+    height:5vh;
+    margin-top:0px;
+}
+footer div{
+    text-align:center;
+    color:white;
+
+}
+
+main{
+    overflow:auto;
+}
+
+footer{
+    margin-top:0px;
+    height:12px;
+    border: 0px;
+    box-shadow:inset 0px, 12px, 12px white
+}
